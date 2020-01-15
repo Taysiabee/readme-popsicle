@@ -2,13 +2,15 @@
 
 ## 1. Start by making a popsicle function.
 
-With this function you're going to use an argument of options.
+With this function you're going to use an argument of **options**.
 
-**Inside** this function create an element(div) and name it wham and style it.
-	**element(wham).style.whatever**
-Inside this new element, or div, add text. 
+	-**Inside** this function create the element wham with the argument of **div** to make **wham** an actual div.
+	-Now since wham is now a  div you can begin styling in in javascript. That's right, **IN JAVASCRIPT.**
+		-EX: wham.style.whateverstyle
+	
+	-Inside this new element, or div, add text. 
 	**element.innerHTML = message**
-Now place this div on the body of the page.
+	-Now place this div on the body of the page.
 	**document.appendChild(wham)**  _wham is the argument_
 
 

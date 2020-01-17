@@ -35,10 +35,16 @@ After you have styled your div, you might wanna add some text inside of the div.
 
 **A**) To make your button clickable you would use API addEventListener. Which is essentially telling your computer to listen out for the nex *event* to happen to the targeted variable. 
 
-	- Ex: *target.addeventListener* = button.addeventListener
+	- Ex: target.addeventListener = button.addeventListener
 
-**B**) Next add the type and function. The type is a string representing the event type to *listen* for. 
-
+**B**) Next add the type and function. The type is a string representing the event type to *listen* for. Then add the function.
+	
+		- Ex: target.addEventListener('event', function(){
+	popsicle({
+     
+    });
+})
+			
 
 ### 4. Calling popsicle function **popsicle()**
 

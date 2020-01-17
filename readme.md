@@ -2,7 +2,7 @@
 
 ## 1. Start by making a popsicle function.
 
-A) With this function you're going to use an argument of **options**. (incase late you'd like to add more)
+A) With this function you're going to use an argument of **options**. (in case later you'd like to add more)
 
 **Inside** this function create the element(**document.createElement**) wham with the argument of **div** to make **wham** an actual div.
 Now since wham is now a div you can begin styling in javascript. That's right, **IN JAVASCRIPT.**
@@ -14,7 +14,7 @@ After you have styled your div, you might wanna add some text inside of it. You 
 
 B) To actually  place this new wham div in the **document** of the **body**, you must use **appendChild** with the argument of wham. 
 
-**document.body.appendchild(wham)
+**document.body.appendChild(wham)
 
 
 ### 2. Make a button

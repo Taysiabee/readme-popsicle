@@ -18,7 +18,9 @@ B) To actually  place this new wham div in the **document** of the **body**, you
 
 **Document**- the actual page
 
-**Body**
+**Body** - in in the content of what you are creating
+
+**AppendChild** - moves it from its current position to its new position.
 
 
 ### 2. Make a button

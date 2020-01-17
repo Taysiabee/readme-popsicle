@@ -15,6 +15,7 @@ After you have styled your div, you might wanna add some text inside of the div.
 B) To actually  place this new wham div in the **document** of the **body**, you must use **appendChild** with the argument of wham. 
 
 **document.body.appendChild(wham)**
+
 **Document**- the actual page
 
 **Body**

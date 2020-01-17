@@ -73,7 +73,7 @@ function popsicle(options) {
 
 
 //calling buttons
-let button = document.querySelector('button')
+// let button = document.querySelector('button')
 
 // calling popsicle
 button.addEventListener('click', function(){

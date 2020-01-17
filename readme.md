@@ -37,6 +37,8 @@ After you have styled your div, you might wanna add some text inside of the div.
 
 *target.addeventListener* = **button.addeventListener**
 
+**B**) Next add the type and function. The type is a string representing the event type to *listen* for. 
+
 
 ### 4. Calling popsicle function **popsicle()**
 

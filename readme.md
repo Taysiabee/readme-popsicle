@@ -1,6 +1,6 @@
 # How to use my damn Popsicle() plugin!
 
-## 1. Start by making a popsicle function.
+## 1. Start by making a popsicle function.  Everything below will go   inside of this function.
 
 A) With this function you're going to use an argument of **options**. (in case later you'd like to add more)
 
@@ -25,10 +25,21 @@ B) To actually  place this new wham div in the **document** of the **body**, you
 
 ### 2. Make a button
 
-A) Make a variable called bn and create it using **createElement("button")**
+A) Make a variable called btn and create it using **createElement("button")**
 
 B) Style it using the same technique as above.
-C) Add it to the body using innerHTML again with a string being the text inside the button.
+
+C) Add it to the body using innerHTML again with a "string" being the text you want inside of  the button. **This Button will be inside of the div you just made and named.**
+
+### 3. Calling Button
+
+A) To call a button previously made in HTML create a variable called button and query select it. QuerySelector goes and finds your argument.
+
+
+
+### 4. Calling popsicle function **popsicle()**
+
+A) 
 
 
 

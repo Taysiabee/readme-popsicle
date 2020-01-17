@@ -16,6 +16,7 @@ B) To actually  place this new wham div in the **document** of the **body**, you
 
 **document.body.appendChild(wham)**
 **Document**- the actual page
+
 **Body**
 
 

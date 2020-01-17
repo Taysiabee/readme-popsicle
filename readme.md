@@ -25,7 +25,10 @@ B) To actually  place this new wham div in the **document** of the **body**, you
 
 ### 2. Make a button
 
-make a variable, name it button and create it using **createElement("button")**
+A) Make a variable called bn and create it using **createElement("button")**
+
+B) Style it using the same technique as above.
+C) Add it to the body using innerHTML again with a string being the text inside the button.
 
 
 

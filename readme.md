@@ -23,23 +23,24 @@ After you have styled your div, you might wanna add some text inside of the div.
 **AppendChild** - moves it from its current position to its new position.
 
 
-### 2. Make a button
+### 2. Making your button
 
-**A**) Make a variable called btn and create it using **createElement("button")**
+**A**) Make a variable called button and create it using **createElement("button")**
 
 **B**) Style it using the same technique as above.
 
 **C**) Add it to the body using innerHTML again with a "string" being the text you want inside of  the button. **This Button will be inside of the div you just made and named.**
 
-### 3. Calling Button
+### 3. Calling Button & Making it Clickable
 
-**A**) To call a button previously made in HTML create a variable called button and query select it. QuerySelector goes and finds your argument.
+**A**) To make your button clickable you would use API addEventListener. Which is essentially telling your computer to listen out for the nex *event* to happen to the targeted variable. 
 
+*target.addeventListener* = **button.addeventListener**
 
 
 ### 4. Calling popsicle function **popsicle()**
 
-**A**) 
+**A**) Begin by making the button you created
 
 
 

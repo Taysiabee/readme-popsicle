@@ -40,7 +40,7 @@ After you have styled your div, you might wanna add some text inside of the div.
 
 ### 4. Calling popsicle function **popsicle()**
 
-**A**) Begin by making the button you created
+**A**) Begin by making the button you created.
 
 
 

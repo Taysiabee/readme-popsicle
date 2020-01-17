@@ -7,14 +7,16 @@ A) With this function you're going to use an argument of **options**. (in case l
 **Inside** this function create the element(**document.createElement**) wham with the argument of **div** to make **wham** an actual div.
 Now since wham is now a div you can begin styling in javascript. That's right, **IN JAVASCRIPT.**
 
-**EX: wham.style.whateverstyle**
+**EX: wham.style.whateverStyle**
 	
-After you have styled your div, you might wanna add some text inside of it. You do so by using innerHTML. 
+After you have styled your div, you might wanna add some text inside of the div. You do so by using innerHTML. 
 **wham.innerHTML = options**
 
 B) To actually  place this new wham div in the **document** of the **body**, you must use **appendChild** with the argument of wham. 
 
-**document.body.appendChild(wham)
+**document.body.appendChild(wham)**
+**Document**- the actual page
+**Body**
 
 
 ### 2. Make a button

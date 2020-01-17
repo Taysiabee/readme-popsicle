@@ -9,10 +9,10 @@ Now since wham is now a div you can begin styling in javascript. That's right, *
 
 	- EX: wham.style.whateverStyle
 	
-After you have styled your div, you might wanna add some text inside of the div. You do so by using innerHTML. 
+After you have styled your div, you might wanna add some text or features inside of the div. You do so by using innerHTML. 
 **wham.innerHTML = options**
 
-**B**) To actually  place this new wham div in the **document** of the **body**, you must use **appendChild** with the argument of wham. 
+**B**) To actually  place this new wham div in the **document** of the **body**, you must use **appendChild** with the argument of the div you created *wham*. 
 
 	- EX: document.body.appendChild(wham)
 
@@ -20,7 +20,9 @@ After you have styled your div, you might wanna add some text inside of the div.
 
 **Body** - in in the content of what you are creating
 
-**AppendChild** - moves it from its current position to its new position.
+**AppendChild** - moves div from its current position to its new position.
+
+*You have now created a div in JS, styled it a    placed it in the body*
 
 
 ### 2. Making your button

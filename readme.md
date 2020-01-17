@@ -14,13 +14,13 @@ After you have styled your div, you might wanna add some text inside of the div.
 
 **B**) To actually  place this new wham div in the **document** of the **body**, you must use **appendChild** with the argument of wham. 
 
-**document.body.appendChild(wham)**
+	- **document.body.appendChild(wham)**
 
-**Document**- the actual page
+	**Document**- the actual page
 
-**Body** - in in the content of what you are creating
+	**Body** - in in the content of what you are creating
 
-**AppendChild** - moves it from its current position to its new position.
+	**AppendChild** - moves it from its current position to its new position.
 
 
 ### 2. Making your button

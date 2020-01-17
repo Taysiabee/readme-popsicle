@@ -40,11 +40,17 @@ After you have styled your div, you might wanna add some text inside of the div.
 **B**) Next add the type and function. The type is a string representing the event type to *listen* for. Then add the function.
 	
 		- Ex: target.addEventListener('event', function(){
-	popsicle({
+		popsicle({
      
-    });
-})
-			
+    	});
+	})
+
+
+	button.addEventListener('click', function(){
+		popsicle({
+    	
+    	});
+	})
 
 ### 4. Calling popsicle function **popsicle()**
 

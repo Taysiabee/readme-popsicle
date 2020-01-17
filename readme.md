@@ -2,7 +2,7 @@
 
 ## 1. Start by making a popsicle function.  Everything below will go   inside of this function.
 
-A) With this function you're going to use an argument of **options**. (in case later you'd like to add more)
+**A**) With this function you're going to use an argument of **options**. (in case later you'd like to add more)
 
 **Inside** this function create the element(**document.createElement**) wham with the argument of **div** to make **wham** an actual div.
 Now since wham is now a div you can begin styling in javascript. That's right, **IN JAVASCRIPT.**
@@ -12,7 +12,7 @@ Now since wham is now a div you can begin styling in javascript. That's right, *
 After you have styled your div, you might wanna add some text inside of the div. You do so by using innerHTML. 
 **wham.innerHTML = options**
 
-B) To actually  place this new wham div in the **document** of the **body**, you must use **appendChild** with the argument of wham. 
+**B**) To actually  place this new wham div in the **document** of the **body**, you must use **appendChild** with the argument of wham. 
 
 **document.body.appendChild(wham)**
 
@@ -25,21 +25,21 @@ B) To actually  place this new wham div in the **document** of the **body**, you
 
 ### 2. Make a button
 
-A) Make a variable called btn and create it using **createElement("button")**
+**A**) Make a variable called btn and create it using **createElement("button")**
 
-B) Style it using the same technique as above.
+**B**) Style it using the same technique as above.
 
-C) Add it to the body using innerHTML again with a "string" being the text you want inside of  the button. **This Button will be inside of the div you just made and named.**
+**C**) Add it to the body using innerHTML again with a "string" being the text you want inside of  the button. **This Button will be inside of the div you just made and named.**
 
 ### 3. Calling Button
 
-A) To call a button previously made in HTML create a variable called button and query select it. QuerySelector goes and finds your argument.
+**A**) To call a button previously made in HTML create a variable called button and query select it. QuerySelector goes and finds your argument.
 
 
 
 ### 4. Calling popsicle function **popsicle()**
 
-A) 
+**A**) 
 
 
 

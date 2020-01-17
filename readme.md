@@ -2,9 +2,9 @@
 
 ## 1. Start by making a popsicle function.  Everything below will go   inside of this function.
 
-**A**) With this function you're going to use an argument of **options**. (in case later you'd like to add more)
+**A**) With this function you're going to use an argument of **options**. *functions functionName(argument)*. (in case later you'd like to add more options)
 
-**Inside** this function create the element(**document.createElement**) wham with the argument of **div** to make **wham** an actual div.
+**Inside** this function create a div and name the variable wham. You'll use **document.createElement** to create thi,s with tag name of **div** to make **wham** an actual div.
 Now since wham is now a div you can begin styling in javascript. That's right, **IN JAVASCRIPT.**
 
 	- EX: wham.style.whateverStyle
@@ -37,7 +37,7 @@ After you have styled your div, you might wanna add some text inside of the div.
 
 	- Ex: target.addeventListener = button.addeventListener
 
-**B**) Next add the type and function. The type is a string representing the event type to *listen* for. Then add the function.
+**B**) Next add the type and function. The type is a string representing the event type to *listen* for. Then add the popsicle   function.
 	
 		- Ex: target.addEventListener('event', function(){
 		popsicle({
@@ -52,9 +52,7 @@ After you have styled your div, you might wanna add some text inside of the div.
     	});
 	})
 
-### 4. Calling popsicle function **popsicle()**
 
-**A**) Begin by making the button you created.
 
 
 

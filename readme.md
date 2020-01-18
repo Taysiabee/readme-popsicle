@@ -53,7 +53,20 @@ After you have styled your div, you might wanna add some text or features inside
     	});
 	})
 
-**2**) Now that you have a div box called *wham*, & a cliackable button to make the div appear, you can add some
+### 4. Options 
+
+Now that you have a div box called *wham*, and a cliackable button to make the div appear, you can add some features or *options*.
+
+**A**) Let's say you want to add a progress bar to the wham div you created. Use an *if* statement. 
+
+	-dfknn
+
+		**if (condition)
+	   statement1
+	[else
+	   statement2]**
+
+
 
 
 

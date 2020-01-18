@@ -4,7 +4,7 @@
 
 **A**) With this function you're going to use an argument of **options**. *functions functionName(argument)*. (in case later you'd like to add more options)
 
-**Inside** this function create a div and name the variable wham. You'll use **document.createElement** to create this with tag name of **div** to make **wham** an actual div.
+**Inside** this function create a div and name the variable wham. You'll use **document.createElement** to create this with tag name of **div** to make **wham** the actual name of div.
 Now since wham is now a div you can begin styling in javascript. That's right, **IN JAVASCRIPT.**
 
 	- EX: wham.style.whateverStyle
@@ -52,7 +52,7 @@ After you have styled your div, you might wanna add some text or features inside
 		popsicle({
     	
     	});
-	})
+	}).
 
 
 

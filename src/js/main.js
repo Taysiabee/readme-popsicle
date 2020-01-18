@@ -45,10 +45,10 @@ function popsicle(options) {
 
 
     //make button
-    var btn = document.createElement("button");
-    btn.style.float = "right";
-    btn.style.color = "lime";
-    btn.innerHTML = "NAH"
+    // var btn = document.createElement("button");
+    // btn.style.float = "right";
+    // btn.style.color = "lime";
+    // btn.innerHTML = "NAH"
     
     wham.appendChild(btn);//btn is the child, puts it into wham div
 
@@ -64,16 +64,8 @@ function popsicle(options) {
 }// function popsicle complte
 
 
-
-
-
-
-
-
-
-
-//calling buttons
-// let button = document.querySelector('button')
+calling buttons
+let button = document.querySelector('button')
 
 // calling popsicle
 button.addEventListener('click', function(){
@@ -83,7 +75,3 @@ button.addEventListener('click', function(){
         progressBar: true,
     });
 })
-
-
- 
-

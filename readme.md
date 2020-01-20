@@ -94,6 +94,7 @@ Now appendChild to place this progress bar **INSIDE** the popup wam div you crea
 **D**) Now that you have created a div progress bar and placed it inside of thr wham div you can style it!
 
 		- EX: progressBar.style.whateverStyle
+**HINT**: *to make the progress bar animate, style the  width at 100% and a transitionTimingFunction at "linear"*
 
 **E**) YOU ARENT FINISHED YET! Don't forget about your timer! After you have styled your progress bar right underneath your styles add the setTimeout function.
 
@@ -101,6 +102,7 @@ Now appendChild to place this progress bar **INSIDE** the popup wam div you crea
 			
 			}, )
 
+Inside this functuon you will
 
 
 

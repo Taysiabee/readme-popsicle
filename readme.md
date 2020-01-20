@@ -72,7 +72,7 @@ Use an *if* statement. This should be placed inside the function underneath wher
 		- EX: **if (condition) {
 	   		let condition = document.CreateElement()
 		
-				}**
+			}**
 
 **B**) Since we're adding a *Timer* **AND** a progress bar, these two are your conditions.
 
@@ -80,7 +80,7 @@ Use an *if* statement. This should be placed inside the function underneath wher
 					if (optionsprogressBar)  {
 					
 					}
-				}**
+			}**
 
 
 

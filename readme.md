@@ -94,15 +94,29 @@ Now appendChild to place this progress bar **INSIDE** the popup wam div you crea
 **D**) Now that you have created a div progress bar and placed it inside of thr wham div you can style it!
 
 		- EX: progressBar.style.whateverStyle
-**HINT**: *to make the progress bar animate, style the  width at 100% and a transitionTimingFunction at "linear"*
+**HINT**: *to make the progress bar animate, style the  width at 100% and set transitionTimingFunction to "linear"*
 
 **E**) YOU ARENT FINISHED YET! Don't forget about your timer! After you have styled your progress bar right underneath your styles add the setTimeout function.
 
 		- EX: setTimeout(function(){
 			
-			}, )
+			}, milliseconds)
 
-Inside this functuon you will
+Inside this functuon you will now restyle the progress bar to 0% and choose how long you want the popup to display.
+
+		setTimeout(function(){
+			progressBar.style.width = 0%
+			}, 10)
+
+### 5. Removing
+
+Since you have a timer on the popup, you now need to tell the child to be removed, with the time set as to when to be removed.
+
+		- EX: childNode.remove();
+
+		setTimeout(function(){
+        wham.remove()
+    }, options.time)//can be whatever developer chooses
 
 
 

@@ -65,14 +65,22 @@ Using "button" as the string.
 
 Now that you have a div box called *wham*, and a cliackable button to make the wham div appear, you can add some features or *options*.
 
-**A**) Let's say you want to add a **Progress Bar** with a **Timer* that closes the box after a few seconds, adding thid onto wham div you created. 
+**A**) Let's say you want to add a **Progress Bar** with a **Timer* that closes the box after a few seconds, adding this onto wham div you created. 
 
 Use an *if* statement. This should be placed inside the function underneath where you placed the div in the body.
 
-		**if (condition)   {
-	   		let condition = document.CreateElement
-		}
-	   statement2]**
+		- EX: **if (condition) {
+	   		let condition = document.CreateElement()
+		
+				}**
+
+**B**) Since we're adding a *Timer* **AND** a progress bar, these two are your conditions.
+
+		- EX: **if (options.timer) {
+					if (optionsprogressBar)  {
+					
+					}
+				}**
 
 
 

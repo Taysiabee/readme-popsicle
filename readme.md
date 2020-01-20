@@ -116,8 +116,19 @@ Since you have a timer on the popup, you now need to tell the child to be remove
 
 		setTimeout(function(){
         wham.remove()
-    }, options.time)//can be whatever developer chooses
+    }, 10 )//can be whatever developer chooses
 
+## 6. Revisit Options
+
+Now earlier in the popsicle function we used an argument of **options**. This  is so the developer can  go  back and choose and change diffferent options  instead of anything being hardcoded.
+
+**A**) SO back when we made our button clickable, inside the popsicle function add: 
+
+		time: what you choose 
+		progressBar: true
+
+
+Any Questions?
 
 
 

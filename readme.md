@@ -84,12 +84,22 @@ Use an *if* statement. This should be placed inside the function underneath wher
 **C**) SO what you are saying is **IF** there is a timer options and **IF** Progress bar is true... DO the following inside the function.
 
 		- EX: let progressBar = document.createElement("div")
-		*this is creating the progress bar div.*
+		
+*this is creating the progress bar div.*
 
-Now appendChild to place this progress bar **INSIDE** the popup wam div you created.
+Now appendChild to place this progress bar **INSIDE** the popup wam div you created before.
 	
 		wham.appendChild(progressBar)
 
+**D**) Now that you have created a div progress bar and placed it inside of thr wham div you can style it!
+
+		- EX: progressBar.style.whateverStyle
+
+**E**) YOU ARENT FINISHED YET! Don't forget about your timer! After you have styled your progress bar right underneath your styles add the setTimeout function.
+
+		- EX: setTimeout(function(){
+			
+			}, )
 
 
 

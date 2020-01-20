@@ -5,7 +5,7 @@
 **A**) With this function you're going to use an argument of **options**. *
 
 	- EX: function functionName(argument) 
-	*(in case later you'd like to add more options)*
+	(in case later you'd like to add more options)
 
 **Inside** this function create a div and name that div variable wham. You'll use **document.createElement** to create this with tag name of **div** to make **wham** the actual name of div.
 Now since wham is now a div you can begin styling in javascript. That's right, **IN JAVASCRIPT.**
@@ -32,7 +32,7 @@ After you have styled your div, you might wanna add some text or features inside
 
 **A**) To make a button to make your popup appear make a variable called button and create it using the syntax: 
 
-	- EX: document.createElement("string")**
+	- EX: document.createElement("string")
 
 Using "button" as the string.
 
@@ -69,17 +69,17 @@ Now that you have a div box called *wham*, and a cliackable button to make the w
 
 Use an *if* statement. This should be placed inside the function underneath where you placed the div in the body.
 
-		- EX: **if (condition) {
+		- EX: if (condition) {
 		
-			}**
+			}
 
 **B**) Since we're adding a *Timer* **AND** a *Progress bar*, these two are your conditions.
 
-		- EX: **if (options.timer) {
+		- EX: if (options.timer) {
 					if (optionsprogressBar)  {
 					
 					}
-			}**
+			}
 
 **C**) SO what you are saying is **IF** there is a timer options and **IF** Progress bar is true... DO the following inside the function.
 

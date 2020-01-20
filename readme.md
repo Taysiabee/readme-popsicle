@@ -70,17 +70,27 @@ Now that you have a div box called *wham*, and a cliackable button to make the w
 Use an *if* statement. This should be placed inside the function underneath where you placed the div in the body.
 
 		- EX: **if (condition) {
-	   		let condition = document.CreateElement()
 		
 			}**
 
-**B**) Since we're adding a *Timer* **AND** a progress bar, these two are your conditions.
+**B**) Since we're adding a *Timer* **AND** a *Progress bar*, these two are your conditions.
 
 		- EX: **if (options.timer) {
 					if (optionsprogressBar)  {
 					
 					}
 			}**
+
+**C**) SO what you are saying is **IF** there is a timer options and **IF** Progress bar is true... DO the following inside the function.
+
+		- EX: let progressBar = document.createElement("div")
+		*this is creating the progress bar div.*
+
+Now appendChild to place this progress bar **INSIDE** the popup wam div you created.
+	
+		wham.appendChild(progressBar)
+
+
 
 
 

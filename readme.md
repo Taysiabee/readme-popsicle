@@ -2,9 +2,9 @@
 
 ## 1. Start by making a popsicle function. Everything below will go  inside of this function.
 
-**A**) With this function you're going to use an argument of **options**. *functions functionName(argument)*. (in case later you'd like to add more options)
+**A**) With this function you're going to use an argument of **options**. *function functionName(argument)*. (in case later you'd like to add more options)
 
-**Inside** this function create a div and name the variable wham. You'll use **document.createElement** to create this with tag name of **div** to make **wham** the actual name of div.
+**Inside** this function create a div and name that div variable wham. You'll use **document.createElement** to create this with tag name of **div** to make **wham** the actual name of div.
 Now since wham is now a div you can begin styling in javascript. That's right, **IN JAVASCRIPT.**
 
 	- EX: wham.style.whateverStyle
@@ -58,8 +58,6 @@ After you have styled your div, you might wanna add some text or features inside
 Now that you have a div box called *wham*, and a cliackable button to make the div appear, you can add some features or *options*.
 
 **A**) Let's say you want to add a progress bar to the wham div you created. Use an *if* statement. 
-
-	-dfknn
 
 		**if (condition)
 	   statement1

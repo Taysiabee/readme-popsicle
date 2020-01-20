@@ -1,6 +1,6 @@
 function popsicle(options) {
     //wham is the box
-	var wham = document.createElement("div");
+    var wham = document.createElement("div");
     wham.style.width = "500px";
     wham.style.height = "100px";
     wham.style.background = "lime";
@@ -50,7 +50,7 @@ function popsicle(options) {
     // btn.style.color = "lime";
     // btn.innerHTML = "NAH"
     
-    wham.appendChild(btn);//btn is the child, puts it into wham div
+    // wham.appendChild(btn);//btn is the child, puts it into wham div
 
 
 
@@ -64,14 +64,35 @@ function popsicle(options) {
 }// function popsicle complte
 
 
-calling buttons
-let button = document.querySelector('button')
+
+
+
+
+var button = document.createElement("button")
+button.style.color = "white";
+button.style.backgroundColor = "lime";
+button.style.width = "100px";
+button.style.height = "50px";
+button.innerHTML = "PLAY";
+button.style.position = "absolute"
+button.style.left = "40%";
+button.style.top = "40%";
+document.body.appendChild(button)
+
+
+
+// calling buttons
+// let button = document.querySelector('button')
 
 // calling popsicle
 button.addEventListener('click', function(){
-	popsicle({
+    popsicle({
         message: 'ARE YOU SURE YOU WANT TO ENTER?',
         time: 5000,
         progressBar: true,
     });
 })
+
+
+ 
+
